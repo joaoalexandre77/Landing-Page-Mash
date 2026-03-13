@@ -284,7 +284,8 @@ body {
     opacity: 0.5;
 }
 
-/* Mash */
+
+/* Cerveja */
 .cerveja-artesanal {
     background-color: #ffffff;
     display: flex;
@@ -368,16 +369,7 @@ body {
 }
 
 
-
-
-
-
-
-
-
-
-
-
+/* Mash */
 .sobre-sistema {
     background-color: #ffffff;
     display: flex;
@@ -471,22 +463,20 @@ body {
 
 /* swap: inverte posições sem extrapolar */
 .Div-Img-Sobre-mash.swap #img1 {
-  left: 72%;
-  top: 30%;
-  transform: translate(-50%, -50%) scale(0.98);
-  z-index: 1;
-  opacity: 0.98;
+    left: 72%;
+    top: 30%;
+    transform: translate(-50%, -50%) scale(0.98);
+    z-index: 1;
+    opacity: 0.98;
 }
 
 .Div-Img-Sobre-mash.swap #img2 {
-  left: 40%;
-  top: 58%;
-  transform: translate(-50%, -50%) scale(1);
-  z-index: 2;
-  opacity: 1;
+    left: 40%;
+    top: 58%;
+    transform: translate(-50%, -50%) scale(1);
+    z-index: 2;
+    opacity: 1;
 }
-
-
 
 
 /* Footer */
@@ -559,4 +549,1700 @@ body {
     color: #ffffff;
     width: 40px;
     margin-right: 5px;
+}
+
+
+
+/* Celular Extra pequeno*/
+@media (max-width: 480px) {
+
+    /* Header */
+
+    .header-bar {
+        padding: 0px 10px 0px 10px;
+    }
+
+    .nav-bar {
+        width: 70%;
+    }
+
+    .item-nav-bar {
+        font-size: 14px;
+    }
+
+    .logo-hearder {
+        width: 70px;
+    }
+
+
+    /* Hero */
+
+    .hero {
+        background-color: #0F172A;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 600px;
+        z-index: 0;
+    }
+
+    .logo-hero {
+        margin-left: 0px;
+        width: 300px;
+    }
+
+    .button-hero {
+        width: 150px;
+        height: 50px;
+        margin: 30px 0px 0px 0px;
+        border-radius: 5px;
+        border: none;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-size: 13px;
+        transition: opacity 0.2s, transform 0.2s;
+    }
+
+    .button-hero:hover {
+        cursor: pointer;
+        opacity: 0.6;
+        transform: scale(1.05);
+    }
+
+    .button-hero:active {
+        transform: scale(1);
+    }
+
+    /* Sobre */
+    .sobre-conloq {
+        padding: 0px 10px 0px 10px;
+        height: 1500px;
+    }
+
+    .h1-sobre-conloq {
+        text-align: center;
+        font-size: 25px;
+
+    }
+
+    .articles-sobre-conloq {
+        flex-direction: column;
+    }
+
+    .article-texto-sobre-conloq {
+        flex: 0;
+        font-size: 15px;
+    }
+
+    .p-article-texto-sobre-conloq {
+        text-align: center;
+    }
+
+    .h1-propositos-article-blocks-sobre-conloq {
+        font-size: 23px;
+    }
+
+    .article-blocks-sobre-conloq {
+        flex: 1;
+    }
+
+    .tr-block-sobre-conloq {
+        flex-direction: column;
+        font-size: 15px;
+    }
+
+    .td-block-sobre-conloq {
+        width: 230px;
+        height: 230px;
+    }
+
+
+    /* Equipe */
+
+    .equipe {
+        flex-direction: column;
+        padding: 0px 10px 0px 10px;
+        height: 1600px;
+    }
+
+    .h1-equipe {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .Div-Cards-Equipe {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Card-Equipes {
+        width: 250px;
+        height: 320px;
+    }
+
+    .Card-Equipes:hover {
+        transform: scale(1.06);
+    }
+
+    .Image-Card-Equipe {
+        width: 250px;
+        height: 320px;
+    }
+
+    .Card-Equipes:hover .Image-Card-Equipe {
+        height: 220px;
+    }
+
+
+    /* Cerveja */
+
+    .cerveja-artesanal {
+        padding: 0px 10px 0px 10px;
+        height: 1000px;
+    }
+
+    .h1-sobre-cerveja {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .articles-sobre-cerveja {
+        flex-direction: column;
+        flex: 1;
+    }
+
+    .text-article-cerveja {
+        border-right: 0px solid black;
+        padding-right: 15px;
+        text-align: center;
+    }
+
+    .h2-sobre-cerveja {
+        font-size: 20px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .text-sobre-cerveja {
+        font-size: 15px;
+        font-weight: 500;
+        text-align: center;
+        list-style: none;
+        margin: 10px 0px 0px 0px;
+        padding: 0px;
+    }
+
+
+    .carrousel-article-cerveja {
+        flex: 1;
+        height: 100%;
+        width: 100%;
+        padding-left: 0px;
+        margin: 0px;
+    }
+
+    .carrousel-article-cerveja::-webkit-scrollbar {
+        display: none;
+    }
+
+    .Div-Carrousel-Img-Sobre-cerveja {
+        flex: 1;
+        height: 100%;
+    }
+
+    .Img-Div-Sobre-cerveja {
+        height: 230px;
+    }
+
+    /* Mash */
+
+    .sobre-sistema {
+        padding: 0px 10px 0px 10px;
+        height: 800px;
+    }
+
+    .mash {
+        height: 600px;
+        flex: 1;
+        flex-direction: column;
+    }
+
+    .h1-sobre-mash {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .bolinhas-container {
+        justify-content: center;
+    }
+
+    .text-Sobre-mash {
+        font-size: 15px;
+    }
+
+    .Div-Img-Sobre-mash {
+        position: relative;
+        flex: 0 0 60%;
+        width: 100%;
+        max-width: 100%;
+        min-height: 450px;
+        display: block;
+        overflow: visible;
+    }
+
+    .card-img {
+        position: absolute;
+        width: 70%;
+        max-width: 520px;
+        height: auto;
+        max-height: 720px;
+        object-fit: contain;
+        display: block;
+        transition: left 420ms cubic-bezier(.22, .9, .36, 1), top 420ms cubic-bezier(.22, .9, .36, 1), transform 420ms cubic-bezier(.22, .9, .36, 1), opacity 300ms;
+        will-change: left, top, transform, opacity;
+        pointer-events: none;
+        border: none;
+        transform-origin: center center;
+    }
+
+    /* posições — valores calculados para não ultrapassar borda direita (centro da imagem dentro dos limites) */
+    #img1 {
+        left: 40%;
+        top: 58%;
+        transform: translate(-50%, -50%) scale(1);
+        z-index: 2;
+        opacity: 1;
+    }
+
+    #img2 {
+        left: 60%;
+        top: 40%;
+        transform: translate(-50%, -50%) scale(0.98);
+        z-index: 1;
+        opacity: 0.98;
+    }
+
+    /* swap: inverte posições sem extrapolar */
+    .Div-Img-Sobre-mash.swap #img1 {
+        left: 60%;
+        top: 40%;
+        transform: translate(-50%, -50%) scale(0.98);
+        z-index: 1;
+        opacity: 0.98;
+    }
+
+    .Div-Img-Sobre-mash.swap #img2 {
+        left: 40%;
+        top: 58%;
+        transform: translate(-50%, -50%) scale(1);
+        z-index: 2;
+        opacity: 1;
+    }
+
+    /* Footer */
+
+    .footer {
+        padding: 0px 10px 0px 10px;
+        height: 300px;
+
+    }
+
+    .group-sections-footer {
+        flex: 1;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .h1-footer {
+        font-size: 20px;
+    }
+
+    .a-link-footer {
+        font-size: 15px;
+    }
+
+    .img-footer {
+        color: #ffffff;
+        width: 30px;
+        margin-right: 5px;
+    }
+}
+
+/* CelularPequeno*/
+@media (min-width: 481px) and (max-width: 549px) {
+    /* Header */
+
+    .header-bar {
+        padding: 0px 10px 0px 10px;
+    }
+
+    .nav-bar {
+        width: 60%;
+    }
+
+    .item-nav-bar {
+        font-size: 15px;
+    }
+
+    .logo-hearder {
+        width: 100px;
+    }
+
+
+    /* Hero */
+
+    .hero {
+        background-color: #0F172A;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 600px;
+        z-index: 0;
+    }
+
+    .logo-hero {
+        margin-left: 0px;
+        width: 400px;
+    }
+
+    .button-hero {
+        width: 150px;
+        height: 50px;
+        margin: 30px 0px 0px 0px;
+        border-radius: 5px;
+        border: none;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-size: 13px;
+        transition: opacity 0.2s, transform 0.2s;
+    }
+
+    .button-hero:hover {
+        cursor: pointer;
+        opacity: 0.6;
+        transform: scale(1.05);
+    }
+
+    .button-hero:active {
+        transform: scale(1);
+    }
+
+    /* Sobre */
+    .sobre-conloq {
+        padding: 0px 10px 0px 10px;
+        height: 1400px;
+    }
+
+    .h1-sobre-conloq {
+        text-align: center;
+        font-size: 25px;
+
+    }
+
+    .articles-sobre-conloq {
+        flex-direction: column;
+    }
+
+    .article-texto-sobre-conloq {
+        flex: 0.5;
+        font-size: 15px;
+    }
+
+    .p-article-texto-sobre-conloq {
+        text-align: center;
+    }
+
+    .h1-propositos-article-blocks-sobre-conloq {
+        font-size: 23px;
+    }
+
+    .article-blocks-sobre-conloq {
+        flex: 1.5;
+    }
+
+    .tr-block-sobre-conloq {
+        flex-direction: column;
+        font-size: 15px;
+    }
+
+    .td-block-sobre-conloq {
+        width: 230px;
+        height: 230px;
+    }
+
+
+    /* Equipe */
+
+    .equipe {
+        flex-direction: column;
+        padding: 0px 10px 0px 10px;
+        height: 1600px;
+    }
+
+    .h1-equipe {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .Div-Cards-Equipe {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Card-Equipes {
+        width: 250px;
+        height: 320px;
+    }
+
+    .Card-Equipes:hover {
+        transform: scale(1.06);
+    }
+
+    .Image-Card-Equipe {
+        width: 250px;
+        height: 320px;
+    }
+
+    .Card-Equipes:hover .Image-Card-Equipe {
+        height: 220px;
+    }
+
+    /* Cerveja */
+
+    .cerveja-artesanal {
+        padding: 0px 10px 0px 10px;
+        height: 1000px;
+    }
+
+    .h1-sobre-cerveja {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .articles-sobre-cerveja {
+        flex-direction: column;
+        flex: 1;
+    }
+
+    .text-article-cerveja {
+        border-right: 0px solid black;
+        padding-right: 15px;
+        text-align: center;
+    }
+
+    .h2-sobre-cerveja {
+        font-size: 20px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .text-sobre-cerveja {
+        font-size: 15px;
+        font-weight: 500;
+        text-align: center;
+        list-style: none;
+        margin: 10px 0px 0px 0px;
+        padding: 0px;
+    }
+
+
+    .carrousel-article-cerveja {
+        flex: 1;
+        height: 100%;
+        width: 100%;
+        padding-left: 0px;
+        margin: 0px;
+    }
+
+    .carrousel-article-cerveja::-webkit-scrollbar {
+        display: none;
+    }
+
+    .Div-Carrousel-Img-Sobre-cerveja {
+        flex: 1;
+        height: 100%;
+    }
+
+    .Img-Div-Sobre-cerveja {
+        height: 230px;
+    }
+
+    /* Mash */
+
+    .sobre-sistema {
+        padding: 0px 10px 0px 10px;
+        height: 800px;
+    }
+
+    .mash {
+        height: 600px;
+        flex: 1;
+        flex-direction: column;
+    }
+
+    .h1-sobre-mash {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .bolinhas-container {
+        justify-content: center;
+    }
+
+    .text-Sobre-mash {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .Div-Img-Sobre-mash {
+        position: relative;
+        flex: 0 0 60%;
+        width: 100%;
+        max-width: 100%;
+        min-height: 450px;
+        display: block;
+        overflow: visible;
+    }
+
+    .card-img {
+        position: absolute;
+        width: 70%;
+        max-width: 520px;
+        height: auto;
+        max-height: 720px;
+        object-fit: contain;
+        display: block;
+        transition: left 420ms cubic-bezier(.22, .9, .36, 1), top 420ms cubic-bezier(.22, .9, .36, 1), transform 420ms cubic-bezier(.22, .9, .36, 1), opacity 300ms;
+        will-change: left, top, transform, opacity;
+        pointer-events: none;
+        border: none;
+        transform-origin: center center;
+    }
+
+    /* posições — valores calculados para não ultrapassar borda direita (centro da imagem dentro dos limites) */
+    #img1 {
+        left: 40%;
+        top: 58%;
+        transform: translate(-50%, -50%) scale(1);
+        z-index: 2;
+        opacity: 1;
+    }
+
+    #img2 {
+        left: 60%;
+        top: 40%;
+        transform: translate(-50%, -50%) scale(0.98);
+        z-index: 1;
+        opacity: 0.98;
+    }
+
+    /* swap: inverte posições sem extrapolar */
+    .Div-Img-Sobre-mash.swap #img1 {
+        left: 60%;
+        top: 40%;
+        transform: translate(-50%, -50%) scale(0.98);
+        z-index: 1;
+        opacity: 0.98;
+    }
+
+    .Div-Img-Sobre-mash.swap #img2 {
+        left: 40%;
+        top: 58%;
+        transform: translate(-50%, -50%) scale(1);
+        z-index: 2;
+        opacity: 1;
+    }
+
+    /* Footer */
+
+    .footer {
+        padding: 0px 10px 0px 10px;
+        height: 300px;
+
+    }
+
+    .group-sections-footer {
+        flex: 1;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .h1-footer {
+        font-size: 22px;
+    }
+
+    .a-link-footer {
+        font-size: 17px;
+    }
+
+    .img-footer {
+        color: #ffffff;
+        width: 30px;
+        margin-right: 5px;
+    }
+}
+
+@media (min-width: 550px) and (max-width: 769px) {
+    /* Header */
+
+    .header-bar {
+        padding: 0px 10px 0px 10px;
+    }
+
+    .nav-bar {
+        width: 60%;
+    }
+
+    .item-nav-bar {
+        font-size: 15px;
+    }
+
+    .logo-hearder {
+        width: 100px;
+    }
+
+
+    /* Hero */
+
+    .hero {
+        background-color: #0F172A;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 600px;
+        z-index: 0;
+    }
+
+    .logo-hero {
+        margin-left: 0px;
+        width: 400px;
+    }
+
+    .button-hero {
+        width: 150px;
+        height: 50px;
+        margin: 30px 0px 0px 0px;
+        border-radius: 5px;
+        border: none;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-size: 13px;
+        transition: opacity 0.2s, transform 0.2s;
+    }
+
+    .button-hero:hover {
+        cursor: pointer;
+        opacity: 0.6;
+        transform: scale(1.05);
+    }
+
+    .button-hero:active {
+        transform: scale(1);
+    }
+
+    /* Sobre */
+    .sobre-conloq {
+        padding: 0px 10px 0px 10px;
+        height: 1400px;
+    }
+
+    .h1-sobre-conloq {
+        text-align: center;
+        font-size: 25px;
+
+    }
+
+    .articles-sobre-conloq {
+        flex-direction: column;
+    }
+
+    .article-texto-sobre-conloq {
+        flex: 0.5;
+        font-size: 15px;
+    }
+
+    .p-article-texto-sobre-conloq {
+        text-align: center;
+    }
+
+    .h1-propositos-article-blocks-sobre-conloq {
+        font-size: 23px;
+    }
+
+    .article-blocks-sobre-conloq {
+        flex: 1.5;
+    }
+
+    .tr-block-sobre-conloq {
+        flex-direction: column;
+        font-size: 15px;
+    }
+
+    .td-block-sobre-conloq {
+        width: 230px;
+        height: 230px;
+    }
+
+
+    /* Equipe */
+
+    .equipe {
+        flex-direction: column;
+        padding: 0px 10px 0px 10px;
+        height: 1000px;
+    }
+
+    .h1-equipe {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .Div-Cards-Equipe {
+        flex: 1;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Card-Equipes {
+        width: 250px;
+        height: 320px;
+    }
+
+    .Card-Equipes:hover {
+        transform: scale(1.06);
+    }
+
+    .Image-Card-Equipe {
+        width: 250px;
+        height: 320px;
+    }
+
+    .Card-Equipes:hover .Image-Card-Equipe {
+        height: 220px;
+    }
+
+    /* Cerveja */
+
+    .cerveja-artesanal {
+        padding: 0px 10px 0px 10px;
+        height: 1000px;
+    }
+
+    .h1-sobre-cerveja {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .articles-sobre-cerveja {
+        flex-direction: column;
+        flex: 1;
+    }
+
+    .text-article-cerveja {
+        border-right: 0px solid black;
+        padding-right: 15px;
+        text-align: center;
+    }
+
+    .h2-sobre-cerveja {
+        font-size: 20px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .text-sobre-cerveja {
+        font-size: 17px;
+        font-weight: 500;
+        text-align: center;
+        list-style: none;
+        margin: 10px 0px 0px 0px;
+        padding: 0px;
+    }
+
+
+    .carrousel-article-cerveja {
+        flex: 1;
+        height: 100%;
+        width: 100%;
+        padding-left: 0px;
+        margin: 0px;
+    }
+
+    .carrousel-article-cerveja::-webkit-scrollbar {
+        display: none;
+    }
+
+    .Div-Carrousel-Img-Sobre-cerveja {
+        flex: 1;
+        height: 100%;
+    }
+
+    .Img-Div-Sobre-cerveja {
+        height: 280px;
+    }
+
+    /* Mash */
+
+    .sobre-sistema {
+        padding: 0px 10px 0px 10px;
+        height: 800px;
+    }
+
+    .mash {
+        height: 600px;
+        flex: 1;
+        flex-direction: column;
+    }
+
+    .h1-sobre-mash {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .bolinhas-container {
+        justify-content: center;
+    }
+
+    .text-Sobre-mash {
+        font-size: 17px;
+        text-align: center;
+    }
+
+    .Div-Img-Sobre-mash {
+        position: relative;
+        flex: 0 0 60%;
+        width: 100%;
+        max-width: 100%;
+        min-height: 450px;
+        display: block;
+        overflow: visible;
+    }
+
+    .card-img {
+        position: absolute;
+        width: 70%;
+        max-width: 520px;
+        height: auto;
+        max-height: 720px;
+        object-fit: contain;
+        display: block;
+        transition: left 420ms cubic-bezier(.22, .9, .36, 1), top 420ms cubic-bezier(.22, .9, .36, 1), transform 420ms cubic-bezier(.22, .9, .36, 1), opacity 300ms;
+        will-change: left, top, transform, opacity;
+        pointer-events: none;
+        border: none;
+        transform-origin: center center;
+    }
+
+    /* posições — valores calculados para não ultrapassar borda direita (centro da imagem dentro dos limites) */
+    #img1 {
+        left: 40%;
+        top: 58%;
+        transform: translate(-50%, -50%) scale(1);
+        z-index: 2;
+        opacity: 1;
+    }
+
+    #img2 {
+        left: 60%;
+        top: 40%;
+        transform: translate(-50%, -50%) scale(0.98);
+        z-index: 1;
+        opacity: 0.98;
+    }
+
+    /* swap: inverte posições sem extrapolar */
+    .Div-Img-Sobre-mash.swap #img1 {
+        left: 60%;
+        top: 40%;
+        transform: translate(-50%, -50%) scale(0.98);
+        z-index: 1;
+        opacity: 0.98;
+    }
+
+    .Div-Img-Sobre-mash.swap #img2 {
+        left: 40%;
+        top: 58%;
+        transform: translate(-50%, -50%) scale(1);
+        z-index: 2;
+        opacity: 1;
+    }
+
+    /* Footer */
+
+    .footer {
+        padding: 0px 10px 0px 10px;
+        height: 300px;
+
+    }
+
+    .group-sections-footer {
+        flex: 1;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .h1-footer {
+        font-size: 22px;
+    }
+
+    .a-link-footer {
+        font-size: 17px;
+    }
+
+    .img-footer {
+        color: #ffffff;
+        width: 30px;
+        margin-right: 5px;
+    }
+}
+
+
+/*Tablet*/
+@media (min-width: 770px) and (max-width: 1024px) {
+    /* Header */
+
+    .header-bar {
+        padding: 0px 10px 0px 10px;
+    }
+
+    .nav-bar {
+        width: 50%;
+    }
+
+    .item-nav-bar {
+        font-size: 18px;
+    }
+
+    .logo-hearder {
+        width: 150px;
+    }
+
+
+    /* Hero */
+
+    .hero {
+        background-color: #0F172A;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 700px;
+        z-index: 0;
+    }
+
+    .logo-hero {
+        margin-left: 0px;
+        width: 600px;
+    }
+
+    .button-hero {
+        width: 150px;
+        height: 50px;
+        margin: 30px 0px 0px 0px;
+        border-radius: 5px;
+        border: none;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-size: 13px;
+        transition: opacity 0.2s, transform 0.2s;
+    }
+
+    .button-hero:hover {
+        cursor: pointer;
+        opacity: 0.6;
+        transform: scale(1.05);
+    }
+
+    .button-hero:active {
+        transform: scale(1);
+    }
+
+    /* Sobre */
+    .sobre-conloq {
+        padding: 0px 10px 0px 10px;
+        height: 1000px;
+    }
+
+    .h1-sobre-conloq {
+        text-align: center;
+        font-size: 25px;
+
+    }
+
+    .articles-sobre-conloq {
+        flex-direction: column;
+    }
+
+    .article-texto-sobre-conloq {
+        flex: 0.5;
+        font-size: 15px;
+    }
+
+    .p-article-texto-sobre-conloq {
+        text-align: center;
+    }
+
+    .h1-propositos-article-blocks-sobre-conloq {
+        font-size: 23px;
+    }
+
+    .article-blocks-sobre-conloq {
+        flex: 1.5;
+    }
+
+    .tr-block-sobre-conloq {
+        font-size: 15px;
+    }
+
+    .td-block-sobre-conloq {
+        width: 230px;
+        height: 230px;
+    }
+
+    /* Equipe */
+
+    .equipe {
+        flex-direction: column;
+        padding: 0px 10px 0px 10px;
+        height: 800px;
+    }
+
+    .h1-equipe {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .Div-Cards-Equipe {
+        flex: 1;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Card-Equipes {
+        width: 215px;
+        height: 315px;
+    }
+
+    .Card-Equipes:hover {
+        transform: scale(1.06);
+    }
+
+    .Image-Card-Equipe {
+        width: 215px;
+        height: 315px;
+    }
+
+    .Card-Equipes:hover .Image-Card-Equipe {
+        height: 200px;
+    }
+
+    /* Cerveja */
+
+    .cerveja-artesanal {
+        padding: 0px 10px 0px 10px;
+        height: 1000px;
+    }
+
+    .h1-sobre-cerveja {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .articles-sobre-cerveja {
+        flex-direction: column;
+        flex: 1;
+    }
+
+    .text-article-cerveja {
+        border-right: 0px solid black;
+        padding-right: 15px;
+        text-align: center;
+    }
+
+    .h2-sobre-cerveja {
+        font-size: 20px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .text-sobre-cerveja {
+        font-size: 17px;
+        font-weight: 500;
+        text-align: center;
+        list-style: none;
+        margin: 10px 0px 0px 0px;
+        padding: 0px;
+    }
+
+
+    .carrousel-article-cerveja {
+        flex: 1;
+        height: 100%;
+        width: 100%;
+        padding-left: 0px;
+        margin: 0px;
+    }
+
+    .carrousel-article-cerveja::-webkit-scrollbar {
+        display: none;
+    }
+
+    .Div-Carrousel-Img-Sobre-cerveja {
+        flex: 1;
+        height: 100%;
+    }
+
+    .Img-Div-Sobre-cerveja {
+        height: 320px;
+    }
+
+    /* Mash */
+
+    .sobre-sistema {
+        padding: 0px 10px 0px 10px;
+        height: 800px;
+    }
+
+    .mash {
+        height: 600px;
+        flex: 1;
+        flex-direction: column;
+    }
+
+    .h1-sobre-mash {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .bolinhas-container {
+        justify-content: center;
+    }
+
+    .text-Sobre-mash {
+        font-size: 17px;
+        text-align: center;
+    }
+
+    .Div-Img-Sobre-mash {
+        position: relative;
+        flex: 0 0 60%;
+        width: 100%;
+        max-width: 100%;
+        min-height: 450px;
+        display: block;
+        overflow: visible;
+    }
+
+    .card-img {
+        position: absolute;
+        width: 70%;
+        max-width: 520px;
+        height: auto;
+        max-height: 720px;
+        object-fit: contain;
+        display: block;
+        transition: left 420ms cubic-bezier(.22, .9, .36, 1), top 420ms cubic-bezier(.22, .9, .36, 1), transform 420ms cubic-bezier(.22, .9, .36, 1), opacity 300ms;
+        will-change: left, top, transform, opacity;
+        pointer-events: none;
+        border: none;
+        transform-origin: center center;
+    }
+
+    /* posições — valores calculados para não ultrapassar borda direita (centro da imagem dentro dos limites) */
+    #img1 {
+        left: 40%;
+        top: 68%;
+        transform: translate(-50%, -50%) scale(1);
+        z-index: 2;
+        opacity: 1;
+    }
+
+    #img2 {
+        left: 60%;
+        top: 40%;
+        transform: translate(-50%, -50%) scale(0.98);
+        z-index: 1;
+        opacity: 0.98;
+    }
+
+    /* swap: inverte posições sem extrapolar */
+    .Div-Img-Sobre-mash.swap #img1 {
+        left: 60%;
+        top: 40%;
+        transform: translate(-50%, -50%) scale(0.98);
+        z-index: 1;
+        opacity: 0.98;
+    }
+
+    .Div-Img-Sobre-mash.swap #img2 {
+        left: 40%;
+        top: 68%;
+        transform: translate(-50%, -50%) scale(1);
+        z-index: 2;
+        opacity: 1;
+    }
+
+    /* Footer */
+
+    .footer {
+        padding: 0px 10px 0px 10px;
+        height: 300px;
+
+    }
+
+    .group-sections-footer {
+        flex: 1;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .h1-footer {
+        font-size: 25px;
+    }
+
+    .a-link-footer {
+        font-size: 17px;
+    }
+
+    .img-footer {
+        color: #ffffff;
+        width: 30px;
+        margin-right: 5px;
+    }
+}
+
+/* Monitor pequeno */
+@media (min-width: 1025px) and (max-width: 1280px) {
+    /* Header */
+
+    .header-bar {
+        padding: 0px 10px 0px 10px;
+    }
+
+    .nav-bar {
+        width: 40%;
+    }
+
+    .item-nav-bar {
+        font-size: 16px;
+    }
+
+    .logo-hearder {
+        width: 130px;
+    }
+
+    /* Hero */
+
+    .hero {
+        background-color: #0F172A;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 800px;
+        z-index: 0;
+    }
+
+    .logo-hero {
+        margin-left: 0px;
+        width: 800px;
+    }
+
+    .button-hero {
+        width: 150px;
+        height: 50px;
+        margin: 30px 0px 0px 0px;
+        border-radius: 5px;
+        border: none;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-size: 13px;
+        transition: opacity 0.2s, transform 0.2s;
+    }
+
+    .button-hero:hover {
+        cursor: pointer;
+        opacity: 0.6;
+        transform: scale(1.05);
+    }
+
+    .button-hero:active {
+        transform: scale(1);
+    }
+
+    /* Sobre */
+    .sobre-conloq {
+        padding: 0px 10px 0px 10px;
+        height: 1000px;
+    }
+
+    .h1-sobre-conloq {
+        text-align: center;
+        font-size: 25px;
+
+    }
+
+    .articles-sobre-conloq {
+        flex-direction: column;
+    }
+
+    .article-texto-sobre-conloq {
+        flex: 0.5;
+        font-size: 15px;
+    }
+
+    .p-article-texto-sobre-conloq {
+        text-align: center;
+    }
+
+    .h1-propositos-article-blocks-sobre-conloq {
+        font-size: 23px;
+    }
+
+    .article-blocks-sobre-conloq {
+        flex: 1.5;
+    }
+
+    .tr-block-sobre-conloq {
+        font-size: 15px;
+    }
+
+    .td-block-sobre-conloq {
+        font-size: 18px;
+        width: 250px;
+        height: 250px;
+    }
+
+    /* Equipe */
+
+    .equipe {
+        flex-direction: column;
+        padding: 0px 10px 0px 10px;
+        height: 600px;
+    }
+
+    .h1-equipe {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .Div-Cards-Equipe {
+        flex: 1;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .Card-Equipes {
+        width: 215px;
+        height: 315px;
+    }
+
+    .Card-Equipes:hover {
+        transform: scale(1.06);
+    }
+
+    .Image-Card-Equipe {
+        width: 215px;
+        height: 315px;
+    }
+
+    .Card-Equipes:hover .Image-Card-Equipe {
+        height: 200px;
+    }
+
+    /* Cerveja */
+
+    .cerveja-artesanal {
+        padding: 0px 10px 0px 10px;
+        height: 1000px;
+    }
+
+    .h1-sobre-cerveja {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .articles-sobre-cerveja {
+        flex-direction: column;
+        flex: 1;
+    }
+
+    .text-article-cerveja {
+        border-right: 0px solid black;
+        padding-right: 15px;
+        text-align: center;
+    }
+
+    .h2-sobre-cerveja {
+        font-size: 22px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .text-sobre-cerveja {
+        font-size: 20px;
+        font-weight: 500;
+        text-align: center;
+        list-style: none;
+        margin: 10px 0px 0px 0px;
+        padding: 0px;
+    }
+
+
+    .carrousel-article-cerveja {
+        flex: 1;
+        height: 100%;
+        width: 100%;
+        padding-left: 0px;
+        margin: 0px;
+    }
+
+    .carrousel-article-cerveja::-webkit-scrollbar {
+        display: none;
+    }
+
+    .Div-Carrousel-Img-Sobre-cerveja {
+        flex: 1;
+        height: 100%;
+    }
+
+    .Img-Div-Sobre-cerveja {
+        height: 400px;
+    }
+
+    /* Mash */
+
+    .sobre-sistema {
+        padding: 0px 10px 0px 10px;
+        height: 800px;
+    }
+
+    .mash {
+        height: 600px;
+        flex: 1;
+        flex-direction: column;
+    }
+
+    .h1-sobre-mash {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .bolinhas-container {
+        justify-content: center;
+    }
+
+    .text-Sobre-mash {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .Div-Img-Sobre-mash {
+        position: relative;
+        flex: 0 0 60%;
+        width: 100%;
+        max-width: 100%;
+        min-height: 450px;
+        display: block;
+        overflow: visible;
+    }
+
+    .card-img {
+        position: absolute;
+        width: 70%;
+        max-width: 520px;
+        height: auto;
+        max-height: 720px;
+        object-fit: contain;
+        display: block;
+        transition: left 420ms cubic-bezier(.22, .9, .36, 1), top 420ms cubic-bezier(.22, .9, .36, 1), transform 420ms cubic-bezier(.22, .9, .36, 1), opacity 300ms;
+        will-change: left, top, transform, opacity;
+        pointer-events: none;
+        border: none;
+        transform-origin: center center;
+    }
+
+    /* posições — valores calculados para não ultrapassar borda direita (centro da imagem dentro dos limites) */
+    #img1 {
+        left: 40%;
+        top: 68%;
+        transform: translate(-50%, -50%) scale(1);
+        z-index: 2;
+        opacity: 1;
+    }
+
+    #img2 {
+        left: 60%;
+        top: 40%;
+        transform: translate(-50%, -50%) scale(0.98);
+        z-index: 1;
+        opacity: 0.98;
+    }
+
+    /* swap: inverte posições sem extrapolar */
+    .Div-Img-Sobre-mash.swap #img1 {
+        left: 60%;
+        top: 40%;
+        transform: translate(-50%, -50%) scale(0.98);
+        z-index: 1;
+        opacity: 0.98;
+    }
+
+    .Div-Img-Sobre-mash.swap #img2 {
+        left: 40%;
+        top: 68%;
+        transform: translate(-50%, -50%) scale(1);
+        z-index: 2;
+        opacity: 1;
+    }
+
+    /* Footer */
+
+    .footer {
+        padding: 0px 10px 0px 10px;
+        height: 300px;
+
+    }
+
+    .group-sections-footer {
+        flex: 1;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .h1-footer {
+        font-size: 25px;
+    }
+
+    .a-link-footer {
+        font-size: 20px;
+    }
+
+    .img-footer {
+        color: #ffffff;
+        width: 30px;
+        margin-right: 5px;
+    }
+}
+
+/* Monitor médio */
+@media (min-width: 1281px) and (max-width: 1536px) {
+    /* Header */
+
+    .header-bar {
+        padding: 0px 10px 0px 10px;
+    }
+
+    .nav-bar {
+        width: 30%;
+    }
+
+    .item-nav-bar {
+        font-size: 16px;
+    }
+
+    .logo-hearder {
+        width: 130px;
+    }
+
+     /* Hero */
+
+    .hero {
+        background-color: #0F172A;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 800px;
+        z-index: 0;
+    }
+
+    .logo-hero {
+        margin-left: 0px;
+        width: 800px;
+    }
+
+    .button-hero {
+        width: 150px;
+        height: 50px;
+        margin: 30px 0px 0px 0px;
+        border-radius: 5px;
+        border: none;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-size: 13px;
+        transition: opacity 0.2s, transform 0.2s;
+    }
+
+    .button-hero:hover {
+        cursor: pointer;
+        opacity: 0.6;
+        transform: scale(1.05);
+    }
+
+    .button-hero:active {
+        transform: scale(1);
+    }
+
+    /* Cerveja */
+
+    .cerveja-artesanal {
+        padding: 0px 30px 0px 30px;
+        height: 800px;
+    }
+
+    .h1-sobre-cerveja {
+        font-size: 25px;
+    }
+
+    .articles-sobre-cerveja {
+        flex: 1;
+    }
+
+    .text-article-cerveja {
+        border-right: 0px solid black;
+        padding-right: 20px;
+        text-align: center;
+    }
+
+    .h2-sobre-cerveja {
+        font-size: 22px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .text-sobre-cerveja {
+        font-size: 20px;
+        font-weight: 500;
+        text-align: center;
+        list-style: none;
+        margin: 10px 0px 0px 0px;
+        padding: 0px;
+    }
+
+
+    .carrousel-article-cerveja {
+        flex: 1;
+        height: 100%;
+        width: 100%;
+        padding-left: 0px;
+        margin: 0px;
+    }
+
+    .carrousel-article-cerveja::-webkit-scrollbar {
+        display: none;
+    }
+
+    .Div-Carrousel-Img-Sobre-cerveja {
+        flex: 0.5;
+        height: 100%;
+    }
+
+    .Img-Div-Sobre-cerveja {
+        height: 300px;
+    }
+
 }
