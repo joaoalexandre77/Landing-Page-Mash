@@ -82,10 +82,10 @@ body {
 }
 
 .button-hero {
+    background-color: #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #ffffff;
     color: #000000;
     width: 150px;
     height: 50px;
@@ -605,6 +605,11 @@ body {
     }
 
     .button-hero {
+        background-color: #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #000000;
         width: 150px;
         height: 50px;
         margin: 30px 0px 0px 0px;
@@ -920,6 +925,11 @@ body {
     }
 
     .button-hero {
+        background-color: #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #000000;
         width: 150px;
         height: 50px;
         margin: 30px 0px 0px 0px;
@@ -1234,6 +1244,11 @@ body {
     }
 
     .button-hero {
+        background-color: #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #000000;
         width: 150px;
         height: 50px;
         margin: 30px 0px 0px 0px;
@@ -1551,6 +1566,11 @@ body {
     }
 
     .button-hero {
+        background-color: #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #000000;
         width: 150px;
         height: 50px;
         margin: 30px 0px 0px 0px;
@@ -1864,6 +1884,11 @@ body {
     }
 
     .button-hero {
+        background-color: #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #000000;
         width: 150px;
         height: 50px;
         margin: 30px 0px 0px 0px;
@@ -2160,7 +2185,7 @@ body {
         width: 130px;
     }
 
-     /* Hero */
+    /* Hero */
 
     .hero {
         background-color: #0F172A;
@@ -2178,6 +2203,11 @@ body {
     }
 
     .button-hero {
+        background-color: #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #000000;
         width: 150px;
         height: 50px;
         margin: 30px 0px 0px 0px;
