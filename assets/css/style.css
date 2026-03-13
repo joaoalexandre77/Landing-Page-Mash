@@ -348,10 +348,9 @@ body {
     display: flex;
     height: 100%;
     width: 90%;
-    overflow: auto;
+    overflow: hidden;
     margin-left: 25px;
     padding-left: 25px;
-    touch-action: pan-y;
 }
 
 .carrousel-article-cerveja::-webkit-scrollbar {
@@ -364,8 +363,8 @@ body {
     justify-content: center;
     height: 100%;
     gap: 25px;
-    animation: carrousel 15s infinite linear;
-
+    animation: carrousel 16s infinite linear;
+    will-change: transform;
 }
 
 .Img-Div-Sobre-cerveja {
@@ -377,11 +376,11 @@ body {
 
 @keyframes carrousel {
     from {
-        translate: 0;
+        transform: translateX(0);
     }
 
     to {
-        translate: -50%;
+        transform: translateX(calc(-50% - 12.5px));
     }
 }
 
